@@ -30,7 +30,7 @@ function App() {
     const userMsg = { sender: "user", text: input };
     setMessages((prev) => [...prev, userMsg]);
 
-    const webhookUrl = "https://zuccess.app.n8n.cloud/webhook-test/3a942a4f-1bb5-41a9-94b3-efa2670d2f4d";
+    const webhookUrl = "https://zuccess.app.n8n.cloud/webhook/3a942a4f-1bb5-41a9-94b3-efa2670d2f4d";
 
     const session_id = localStorage.getItem("session_id")
     console.log(session_id)
